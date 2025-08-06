@@ -1,0 +1,54 @@
+#container{
+    width: 500px auto;
+    height:auto;
+    margin: auto;
+    margin-top: 5px;
+    border-radius: 65px;
+    background-color: gray;
+    padding: auto;
+    box-shadow: 0 20px 40px rgba(0,0,0,5);
+}
+body
+{
+    text-align: center;
+    background-image: url("https://img.freepik.com/premium-photo/black-numbers-black-background_333900-12265.jpg"); 
+    color: white;  
+    
+    background-size:cover;
+    font-family: 'Courier New', monospace;
+    justify-content: center;
+}
+button{
+    margin-top: 5px;
+    background-color: rgb(54, 51, 51);
+    color: white;
+    border-radius: 12px;
+    height: 30px;
+    font-family: 'Courier New', monospace;
+}
+button:hover{
+    transform: scale(1.2);
+}
+input{
+    margin-top: 3px;
+    width: 120px;
+    height: 30px;
+    border-width: 3px;
+    border-radius: 5px;
+}
+#all{
+    width:600px;
+    margin: auto;
+    border:3px solid gray;
+    border-radius: 8px;
+    padding: 10px;
+    background: transparent;
+    backdrop-filter: blur(10px);
+    box-shadow: 0 20px 40px rgba(0,0,0,5);
+}
+ol{
+    display: inline-block
+}
+h3{
+    margin-bottom: 3px;
+}

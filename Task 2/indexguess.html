@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Guess A Number</title>
+        <link rel="stylesheet" href="guessbot.css">
+        <script src="guessbot.js"></script>
+    </head>
+    <body>
+        <div id="all">
+        <h1>GuessBot</h1>
+        <h3>Let the bot challenge your brain</h3>
+        <h4><i>How to play?</i></h4>
+        <label><b>
+        Guess the secret number between 1 and 100<br/> You have only 7 lives<br/><br/>
+        After each guess, GuessBot will tell you if the secret number is higher or lower <br/><br/>
+        Use your logic wisely — every wrong SHOOT costs a life <br/><br/>
+        <i>Beat the bot before your lives run out!</i></b>
+        </label><br/>
+        <div id="container">
+            <input type="number" min="1" max="100" id="inputValue" placeholder="Your guess here"><br/>
+            <button onclick="checkValue()">Shoot!</button>
+            <audio id="correctaudio" src="correct.wav.wav" preload="auto"></audio>
+            <audio id="wrongaudio" src="wrong.wav.wav" preload="auto"></audio>
+            <audio id="endaudio" src="end.wav.wav" preload="auto"></audio>
+            <h3>Guesses:</h3>
+            <ol id="guesslist"></ol>
+            <span id="result"></span>
+            <h3>Lives:</h3>
+            <div id="Lives">
+                <span id="lives">7</span>
+            </div>
+        </div>
+        </div>
+    </body>
+</html>

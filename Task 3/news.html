@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Live News</title>
+    <script defer src="news.js"></script>
+    <link rel="stylesheet" href="news.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
+  <body>
+    <div id="landing">
+    <h1 style=" font-family: Georgia, serif;">Live News</h1>
+    <h2>Your Language.<br/>Your News.</h2>
+    <i class="fa fa-search"></i>
+    <select id="lang" name="lang" onchange="search()">
+    <option value="" disabled selected>Select a language</option>
+    <option value="en">English</option>
+    <option value="hi">Hindi</option>
+    <option value="es">	Spanish</option>
+    <option value="fr">	French</option>
+    <option value="kn">Kannada</option>
+    <option value="ml">	Malayalam</option>
+    <option value="mr">	Marathi</option>
+  </select></div>
+    <div id="news-container"></div>
+    <a href="#landing" id="home">
+        <img src="https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBMDeveloperSkillsNetwork-CD0101EN-SkillsNetwork/labs/Theia%20Labs/02%20-%20HTML5%20Elements/images/home.svg"/>
+      </a>
+  </body>
+</html>
